@@ -113,7 +113,7 @@ attack, the release, and the sustain. Each sector can be represented by
 one or more columns in *W* (and correspondingly rows in *H*). We used
 the following subdivision:
 
-| ![Note Analysis](/public/imgs/note.png) | 
+| ![Note Analysis](../public/imgs/note.png) | 
 |:--:| 
 | __Figure I:__ *Log-Spectrogram of a piano note. The two red rectangles highlight the impulse connected with the attack of the note, and the impulses connected with the hammer release of the note. The image was obtained using [Sonic Visualizer](https://www.sonicvisualiser.org/) and the audio scales synthesized with Pianoteq “Steinway B Prelude” used for the computation of the initial NMF template. The Sonic Visualizer project used for extracting this image is available in the online repository. The spectrogram has been computed using windows of 1024 frames and 50% of overlap; the intensity scale is in dB, while the frequency scale is logarithmic; no normalization was applied. The pitch is 73, velocity is 22, and duration is 1.5 seconds.* |
 
