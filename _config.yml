@@ -2,8 +2,8 @@
 title:               "MIA: Music Interpretation Analysis"
 # tagline:             'MIA'
 description:         'The Home for Music Information Processing applications about Music Interpretation Analysis'
-url:                 'https://limunimi.github.io/MIA-Music-Interpretation-Analysis/'
-baseurl:             'https://limunimi.github.io/MIA-Music-Interpretation-Analysis/'
+url:                 'https://limunimi.github.io/'
+baseurl:             'MIA-Music-Interpretation-Analysis/'
 paginate:            5
 permalink:           pretty
 
