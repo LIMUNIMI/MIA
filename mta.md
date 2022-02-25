@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Perceptual Evaluation of Music Resynthesis"
+order: 1
 ---
 
 This page serves as companion website for the Following paper:

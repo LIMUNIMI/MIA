@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "What is MIA"
+order: 0
 ---
 
 In Music Information Processing field, the _interpretation_ of a music piece
