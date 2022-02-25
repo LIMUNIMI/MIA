@@ -7,6 +7,19 @@ This page serves as companion website for the EUSIPCO 2022 paper:
 
 > F. Simonetta, S. Ntalampiras, and F. Avanzini “Context-aware Automatic Music Transcription,” EUSIPCO, 2022, submitted, [link]().
 
+## Abstract
+
+This paper presents an Automatic Music Transcription system which incorporates
+context related information. Motivated by the state-of-art psychological
+research, we propose a methodology boosting the accuracy of AMT systems by
+modeling the adaptations that performers apply to 	successfully convey their
+interpretation in any acoustical context. In this work, we show that exploiting
+the knowledge of the source acoustical context allows to reduce the error
+related to the inference of MIDI velocity. The proposed model structure first
+extracts the interpretation features and then applies the modeled performer
+adaptations. Interestingly, such a methodology is extensible in a
+straightforward way since only slight efforts are required to train completely
+context-aware AMT models.
 
 ---
 
