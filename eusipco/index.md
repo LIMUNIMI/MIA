@@ -10,6 +10,8 @@ This page serves as companion website for the EUSIPCO 2022 paper:
 
 ---
 
-**The code is available at https://github.com/LIMUNIMI/ContextAwareAMT**
+**The code is available at [https://github.com/LIMUNIMI/ContextAwareAMT](https://github.com/LIMUNIMI/ContextAwareAMT)**
 
 ---
+
+## Supplementary Materials
