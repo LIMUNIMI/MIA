@@ -134,7 +134,7 @@ logarithmic; no normalization was applied. The pitch is 73, velocity is
     a characteristic impulsive sound and definitely stopping the sound.
 
 The initial *W* matrix is constructed by averaging the values obtained
-from a piano scale synthesized with `pycarla` and Pianoteq’s “Steinway B
+from a piano scale synthesized with [pycarla](https://pycarla.readthedocs.io/) and Pianoteq’s “Steinway B
 Prelude” default preset. The scale contained all 88 pitches played with
 20 velocity layers, 2 different note duration – 0.1 and 1.5 seconds –
 and 2 different inter-note silence duration – 0.5 and 1.5 seconds.
