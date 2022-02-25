@@ -30,7 +30,7 @@ relevance is known to the authors as of the time of writing.
 The following scheme, derived from [Ueno et al., 2010], resumes the proposed
 distinction between interpretation and performance.
 
-![Generic Scheme](imgs/interpretation_diagram.png)
+![Generic Scheme](../public/imgs/interpretation_diagram.png)
 
 
 ## References
