@@ -29,9 +29,9 @@ approach.
 
 ## Code
 
-* ASMD: a python module for compiling, distributing, and accessing multimodal music datasets: https://github.com/LIMUNIMI/ASMD/
-* pyCarla: a python module for music synthesis via audio plugins (VST, etc.): https://github.com/00sapo/pycarla
-* Melody Extraction from Symbolic Scores: https://limunimi.github.io/Symbolic-Melody-Identification/
-* Perceptual Evaluation of Music Resynthesis: [this website](/mta/)
-* Note-level audio-to-score alignment: https://limunimi.github.io/Symbolic-Melody-Identification/
-* Context-aware Automatic Music Transcription: [this website](/eusipco/)
+* ASMD: a python module for compiling, distributing, and accessing multimodal music datasets: [github repo](https://github.com/LIMUNIMI/ASMD/)
+* pyCarla: a python module for music synthesis via audio plugins (VST, etc.): [github repo](https://github.com/00sapo/pycarla)
+* Melody Extraction from Symbolic Scores: [companion website](https://limunimi.github.io/Symbolic-Melody-Identification/)
+* Perceptual Evaluation of Music Resynthesis: [this website](/MIA/mta/)
+* Note-level audio-to-score alignment: [github repo](https://github.com/LIMUNIMI/MMSP2021-Audio2ScoreAlignment)
+* Context-aware Automatic Music Transcription: [this website](/MIA/eusipco/)
