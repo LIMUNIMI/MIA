@@ -33,3 +33,24 @@ the *p*-dispersion problem.
 **The code is available at [https://github.com/LIMUNIMI/PerceptualEvaluation](https://github.com/LIMUNIMI/PerceptualEvaluation)**
 
 ---
+
+## Supplementary Materials
+
+Two Supplementary files are also provided:
+
+1.  [supplementary01.pdf](/public/mta/supplementary01.pdf): contains the detailed description of the SI
+    method used in this work;
+
+2.  [supplementary02.pdf](/public/mta/supplementary02.pdf): contains extensive screenshots of the
+    statistical analysis report used in this work. All the screenshots
+    are generated using the code made available at the above URL.
+    Specifically:
+
+    -   the analysis of all responses – no control groups – per each
+        task, averaged across the excerpts (page 1) and not (page 2);
+
+    -   the analysis of the expertise control groups, averaged across
+        the excerpts (page 3) and not (page 4);
+
+    -   the analysis of the listening habits control groups, averaged
+        across the excerpts (page 5) and not (page 6).
