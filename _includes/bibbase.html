@@ -1,1 +1,30 @@
- <script src="https://bibbase.org/show?bib=https://www.bibsonomy.org/bib/tag/mia&commas=true&theme=dividers&jsonp=1"></script> 
+<style type="text/css">
+
+/* colors */
+.bibbase_group::after, .bibbase_group::before {
+  border-top: 2px solid #e8e8e8;
+}
+.bibbase_group {
+  color: #e8e8e8;
+}
+#bibbase_header .nav a {
+  color: unset;
+}
+#bibbase_header .nav a:hover {
+  color: #ffcc00;
+}
+a:hover {
+  color: #e8e8e8;
+}
+
+/* remove links to bibbase */
+.bibbase.bibbase_page.link, #bibbase > div:first-of-type {
+    display: none;
+}
+
+.bibbase.bibtex.link {
+    margin-left: -10px;
+}
+</style>
+
+<script src="https://bibbase.org/show?bib=https://www.bibsonomy.org/bib/tag/mia&commas=true&theme=dividers&jsonp=1"></script> 
