@@ -1,6 +1,6 @@
 # Setup
 title:               "MIA: Music Interpretation Analysis"
-tagline:             'MIA'
+# tagline:             'MIA'
 description:         'The Home for Music Information Processing applications about Music Interpretation Analysis'
 url:                 https://limunimi.github.io/MIA-Music-Interpretation-Analysis/
 baseurl:             ''
