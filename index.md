@@ -1,4 +1,4 @@
-![Generic Scheme](public/imgs/interpretation_diagram.png)
+![Generic Scheme]({{/public/imgs/interpretation_diagram.png | absolute_url}})
 
 This website is the home for various scientific efforts directed towards the
 analysis of music interpretation.
