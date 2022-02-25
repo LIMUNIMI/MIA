@@ -100,25 +100,9 @@ attack, the release, and the sustain. Each sector can be represented by
 one or more columns in *W* (and correspondingly rows in *H*). We used
 the following subdivision:
 
-<div class="center">
-
-<figure>
-<embed src="/public/imgs/note.png" id="fig:ch_formal_note_spec"
-style="width:50%" />
-<figcaption aria-hidden="true"> <b>Figure I:</b> Log-Spectrogram of a piano note. The two
-red rectangles highlight the impulse connected with the attack of the
-note, and the impulses connected with the hammer release of the note.
-The image was obtained using [Sonic Visualizer](https://www.sonicvisualiser.org/) and the audio scales
-synthesized with Pianoteq “Steinway B Prelude” used for the computation
-of the initial NMF template. The Sonic Visualizer project used for
-extracting this image is available in the online repository. The
-spectrogram has been computed using windows of 1024 frames and 50% of
-overlap; the intensity scale is in dB, while the frequency scale is
-logarithmic; no normalization was applied. The pitch is 73, velocity is
-22, and duration is 1.5 seconds. </figcaption>
-</figure>
-
-</div>
+| ![Note Analysis](/public/imgs/note.png) | 
+|:--:| 
+| __Figure I:__ *Log-Spectrogram of a piano note. The two red rectangles highlight the impulse connected with the attack of the note, and the impulses connected with the hammer release of the note. The image was obtained using [Sonic Visualizer](https://www.sonicvisualiser.org/) and the audio scales synthesized with Pianoteq “Steinway B Prelude” used for the computation of the initial NMF template. The Sonic Visualizer project used for extracting this image is available in the online repository. The spectrogram has been computed using windows of 1024 frames and 50% of overlap; the intensity scale is in dB, while the frequency scale is logarithmic; no normalization was applied. The pitch is 73, velocity is 22, and duration is 1.5 seconds.* |
 
 -   1 column for the attack part, representing the first frame of the
     note envelope (∼ 23 ms)
@@ -129,7 +113,7 @@ logarithmic; no normalization was applied. The pitch is 73, velocity is
 
 -   15 columns for the release part(∼ 345 ms), starting from the
     recorded MIDI offset and representing one audio frame each; the
-    reason is that, as shown in Figure [I][1], after the MIDI offset,
+    reason is that, as shown in Figure I, after the MIDI offset,
     there are still about 350 ms before the hammer comes back, producing
     a characteristic impulsive sound and definitely stopping the sound.
 
@@ -164,6 +148,3 @@ to obtain its approximated spectrogram separated from the rest of the
 recording. We consider the first 30 frames (690 ms) of each note,
 padding with 0 if the note is shorter. We finally compute the first 13
 MFCC features in each column of the spectrogram using Essentia.
-
-
-[1]: #fig:ch_formal_note_spec
