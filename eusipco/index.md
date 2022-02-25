@@ -103,12 +103,12 @@ the following subdivision:
 <div class="center">
 
 <figure>
-<embed src="note.png" id="fig:ch_formal_note_spec"
+<embed src="/public/imgs/note.png" id="fig:ch_formal_note_spec"
 style="width:50%" />
 <figcaption aria-hidden="true"> <b>Figure I:</b> Log-Spectrogram of a piano note. The two
 red rectangles highlight the impulse connected with the attack of the
 note, and the impulses connected with the hammer release of the note.
-The image was obtained using Sonic Visualizer and the audio scales
+The image was obtained using [Sonic Visualizer](https://www.sonicvisualiser.org/) and the audio scales
 synthesized with Pianoteq “Steinway B Prelude” used for the computation
 of the initial NMF template. The Sonic Visualizer project used for
 extracting this image is available in the online repository. The
@@ -167,4 +167,3 @@ MFCC features in each column of the spectrogram using Essentia.
 
 
 [1]: #fig:ch_formal_note_spec
-
