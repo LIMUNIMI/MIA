@@ -1,8 +1,3 @@
----
-layout: page
-title: "Home"
----
-
 ![Generic Scheme](../public/imgs/interpretation_diagram.png)
 
 This website is the home for various scientific efforts directed towards the
