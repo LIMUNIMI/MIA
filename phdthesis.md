@@ -6,7 +6,7 @@ order: 3
 
 This page serves as companion website for the Ph.D. Thesis:
 
-> F. Simonetta “MIA: Music Interpretation Analysis,” 2022, [link]().
+> F. Simonetta “MIA: Music Interpretation Analysis,” 2022, [link](http://hdl.handle.net/2434/918909 ).
 
 ## Abstract
 
