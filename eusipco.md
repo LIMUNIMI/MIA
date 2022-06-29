@@ -1,30 +1,37 @@
 ---
 layout: page
-title: "Context-aware AMT"
+title: "Acoustics-specific Piano Velocity Estimation"
 order: 2
 ---
 
-This page serves as companion website for the EUSIPCO 2022 paper:
+This page serves as companion website for the MMSP 2022 paper:
 
-> F. Simonetta, S. Ntalampiras, and F. Avanzini “Context-aware Automatic Music Transcription,” EUSIPCO, 2022, submitted, [link](https://arxiv.org/abs/2203.16294).
+> F. Simonetta, S. Ntalampiras, and F. Avanzini “Acoustics-specific Piano Velocity Estimation,” MMSP, 2022, submitted, [link](https://arxiv.org/abs/2203.16294).
 
 ## Abstract
 
-This paper presents an Automatic Music Transcription system which incorporates
-context related information. Motivated by the state-of-art psychological
-research, we propose a methodology boosting the accuracy of AMT systems by
-modeling the adaptations that performers apply to 	successfully convey their
-interpretation in any acoustical context. In this work, we show that exploiting
-the knowledge of the source acoustical context allows to reduce the error
-related to the inference of MIDI velocity. The proposed model structure first
-extracts the interpretation features and then applies the modeled performer
-adaptations. Interestingly, such a methodology is extensible in a
-straightforward way since only slight efforts are required to train completely
-context-aware AMT models.
+  Motivated by the state-of-art psychological research, we note that a piano
+  performance transcribed with existing Automatic Music Transcription (AMT)
+  methods cannot be successfully resynthesized without affecting the artistic
+  content of the performance. This is due to 1) the different mappings between
+  MIDI parameters used by different instruments, and 2) the fact that musicians
+  adapt their way of playing to the surrounding acoustic environment. To face
+  this issue, we propose a methodology to build acoustics-specific AMT systems
+  that are able to model the adaptations that musicians apply to convey their
+  interpretation. Specifically, we train models tailored for virtual instruments
+  in a modular architecture that takes as input an audio recording and the
+  relative aligned music score, and outputs the acoustics-specific velocities of
+  each note. We test different model shapes and show that the proposed
+  methodology generally outperforms the usual AMT pipeline which does not
+  consider specificities of the instrument and of the acoustic environment.
+  Interestingly, such a methodology is extensible in a straightforward way since
+  only slight efforts are required to train models for the inference of other
+  piano parameters, such as pedaling.
+
 
 ---
 
-**The code is available at [https://github.com/LIMUNIMI/ContextAwareAMT](https://github.com/LIMUNIMI/ContextAwareAMT)**
+**The code is available at [https://github.com/LIMUNIMI/ContextAwareAMT]([https://github.com/LIMUNIMI/ContextAwareAMT](https://github.com/LIMUNIMI/ContextAwareAMT/releases/tag/phdthesis))**
 
 ---
 
