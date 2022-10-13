@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Ph.D. Thesis"
-order: 3
+order: 4
 ---
 
 This page serves as companion website for the Ph.D. Thesis:
