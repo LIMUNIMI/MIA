@@ -29,4 +29,4 @@ This page serves as companion website for the MMSP 2022 paper:
 
 ---
 
-**The code is available at [https://github.com/LIMUNIMI/ContextAwareAMT]([https://github.com/LIMUNIMI/ContextAwareAMT/releases/tag/phdthesis](https://github.com/LIMUNIMI/ContextAwareAMT/releases/tag/velocity%2Bpedaling))**
+**The code is available at [https://github.com/LIMUNIMI/ContextAwareAMT](https://github.com/LIMUNIMI/ContextAwareAMT/releases/tag/velocity%2Bpedaling)**
