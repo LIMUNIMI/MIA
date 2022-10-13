@@ -6,7 +6,7 @@ order: 2
 
 This page serves as companion website for the MMSP 2022 paper:
 
-> F. Simonetta, S. Ntalampiras, and F. Avanzini “Acoustics-specific Piano Velocity Estimation,” MMSP, 2022, submitted, [link](https://arxiv.org/abs/2203.16294).
+> F. Simonetta, S. Ntalampiras, and F. Avanzini “Acoustics-specific Piano Velocity Estimation,” MMSP, 2022 [link](https://arxiv.org/abs/2203.16294).
 
 ## Abstract
 
